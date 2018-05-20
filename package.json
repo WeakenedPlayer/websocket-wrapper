@@ -1,0 +1,30 @@
+{
+	"scope": "@weakenedplayer",
+	"name": "@weakenedplayer/websocket-wrapper",
+	"version": "0.0.1",
+	"description": "Wrapper for websocket for node.js.",
+	"keywords": [
+		"rxjs",
+		"websocket"
+	],
+	"repository": "https://github.com/WeakenedPlayer/",
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"test": "tsc -p tsconfig.test.json && node dist-test/index.js",
+		"postinstall": "postinstall-build dist",
+		"beta-release": "npm publish --tag beta --access public",
+		"release": "npm publish --tag latest --access public"
+	},
+	"dependencies": {
+		"postinstall-build": "^3.0.0",
+		"rxjs": "^6.1.0",
+		"websocket": "^1.0.26"
+	},
+	"devDependencies": {},
+	"buildDependencies": {
+		"typescript": "*"
+	}
+}
