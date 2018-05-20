@@ -1,6 +1,7 @@
-node_modules
-tmp
-dist
-dist-test
+node_modules/
+tmp/
+dist/
+dist-test/
 
+.project
 package-lock.json
