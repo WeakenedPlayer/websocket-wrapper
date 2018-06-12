@@ -1,7 +1,7 @@
 {
 	"scope": "@weakenedplayer",
 	"name": "@weakenedplayer/websocket-wrapper",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Wrapper for websocket for node.js.",
 	"keywords": [
 		"rxjs",
@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"postinstall-build": "^5.0.1",
-		"rxjs": "^6.1.0",
+		"rxjs": "^6.2.0",
 		"websocket": "^1.0.26"
 	},
 	"devDependencies": {},
