@@ -84,4 +84,8 @@ export class WebSocketClient {
     get json$(): Observable<any> {
         return this.utf8Data$;
     }
+    
+    get opened(): boolean {
+        return this.con.opened;
+    }
 }
